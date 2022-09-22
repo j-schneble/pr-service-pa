@@ -13,7 +13,7 @@ export default function GalleryComp() {
 
 
   return (
-    <div className='grid items-center grid-cols-2 gap-2 transition-all place-content-evenly'>
+    <div className='grid items-center grid-cols-2 gap-2 place-content-evenly'>
       {gallery.map((item, key) => (
         <Parallax key={key}>
             
@@ -30,8 +30,8 @@ export default function GalleryComp() {
                 objectFit='cover'
                 layout='fill'
               
-              
-                className='rounded-t-md popup'
+
+                className='rounded-t-md '
                 alt='Summary image'
               />
        
