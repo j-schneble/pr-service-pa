@@ -311,6 +311,51 @@ background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, 
      /* or some other value */
    
   }
+
+  .popup {
+    cursor: pointer;
+    width: 200px;
+    height:300px;
+  }
+
+  .x{
+    
+    transform:scale(1.2);
+  }
+  
+  .photo__cluster-one {
+    margin: 5em 0 1em 0;
+  }
+  
+  .photo__cluster-one,
+  .photo__cluster-two {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .photo__cluster-one img,
+  .photo__cluster-two img {
+    height: 120px;
+    cursor: pointer;
+    margin: 0 1em 0 0;
+  }
+  
+  .scaleImage {
+    animation: scaling-image-animation 5s ease;
+  }
+  
+  @keyframes scaling-image-animation {
+    0% {
+      transform: scale(0.5);
+      opacity: 0.8;
+    }
+    50% {
+      transform: scale(2);
+    }
+    100% {
+      transform: scale(2.5);
+    }
+  }
   
   
   

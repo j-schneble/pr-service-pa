@@ -202,7 +202,7 @@
   }
   @supports (backdrop-filter: saturate(180%) blur(25px)) {
     .bg-primary {
-      @apply bg-gray-100/60 dark:bg-gray-1000/70;
+      @apply border-2 border-orange-500 bg-gray-100/60 dark:bg-gray-1000/70;
     }
     .filter-blur {
       backdrop-filter: saturate(180%) blur(25px);
@@ -210,12 +210,12 @@
   }
   @supports not (backdrop-filter: saturate(180%) blur(25px)) {
     .bg-primary {
-      @apply bg-gray-100 dark:bg-gray-1000;
+      @apply bg-gray-100 border-2 border-orange-500 dark:bg-gray-1000;
     }
   }
 
   .highlight {
-    @apply bg-black/10  dark:bg-white/[.06];
+    @apply bg-black/10 text-orange-500 dark:bg-white/[.06];
   }
 
   .button-primary-x {

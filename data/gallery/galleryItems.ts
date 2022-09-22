@@ -4,7 +4,7 @@ export const gallery: IGallery[] = [
     { 
        
         image_path: '/images/img1.png',
-       
+        
       },
       { 
        

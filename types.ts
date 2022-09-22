@@ -4,7 +4,7 @@ import { IconType } from "react-icons";
 export interface IGallery {
 
     image_path: string;
-
+    
    
  
   }

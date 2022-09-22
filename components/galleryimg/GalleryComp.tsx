@@ -6,10 +6,15 @@ import { IoLogoGithub } from 'react-icons/io'
 import { Link, } from '@chakra-ui/react'
 import { IoMdArrowRoundForward  } from 'react-icons/io'
 
+
+
+
 export default function GalleryComp() {
+
+
   return (
     <div className='grid items-center grid-cols-2 gap-2 transition-all place-content-evenly'>
-      {gallery.map((gallery, key) => (
+      {gallery.map((item, key) => (
         <Parallax key={key}>
             
           <div
@@ -17,16 +22,16 @@ export default function GalleryComp() {
             className='bg-gray-900 border border-gray-500 rounded-lg cursor-pointer shadowguy group hover:bg-gray-700'
           >
   
-            <div className='h-72 w-40% z relative'>
+            <div className='h-72 w-40% relative'
+          >
    
               <Image
-                src={gallery.image_path}
+                src={item.image_path}
                 objectFit='cover'
                 layout='fill'
-                
-      
               
-                className='rounded-t-md z'
+              
+                className='rounded-t-md popup'
                 alt='Summary image'
               />
        

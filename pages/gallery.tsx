@@ -16,7 +16,7 @@ const Gallery = () => {
     /* ProjectCard still works if implemented, Created Projects Comp to work on Parallax */
   
     return (
-      <Container >
+      <Container  >
        
         
         <div className='col-span-12 sm:col-span-6 lg:col-span-6 '>

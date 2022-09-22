@@ -243,7 +243,7 @@ import React, {
             leaveTo='opacity-0'
           >
             <Dialog.Overlay
-              className={cn('fixed inset-0 bg-gray-50/75 dark:bg-black/75')}
+              className={cn('fixed inset-0 bg-gray-50/75  dark:bg-black/75')}
             />
           </Transition.Child>
   
@@ -333,7 +333,7 @@ import React, {
                             className={cn(
                               cardStyle,
                               result.name === highlightedTab?.textContent
-                                ? 'text-primary'
+                                ? 'text-primary '
                                 : ''
                             )}
                             onMouseOver={handleMouseOver as MouseEventHandler}
