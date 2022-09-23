@@ -25,10 +25,10 @@ interface ServiceProps {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <div className='flex p-4 px-4'>
-          <div className='pl-2 text-xl text-orange-500 rounded-full '>{icon}</div>
+         <div className='flex p-4 '>
+          <div className='pl-2 pr-1 text-xl text-orange-500 rounded-full '>{icon}</div>
         <div className=''>
-          <h2 className='px-1 text-white font-regular font-sfprodisplayregular'>{name}</h2>
+          <h2 className='text-white  font-regular font-sfprodisplayregular'>{name}</h2>
             </div>
           </div>
         </a>

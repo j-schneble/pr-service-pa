@@ -38,13 +38,13 @@ interface Tool {
 
 export const ToolBox: Tool[] = [
     {
-        name: 'Excavating + Grading',
+        name: 'Excavating/Grading',
         icon : <GiCargoCrane />,
         url: "https://primeservicespa.com",
     },
 
     {
-        name : 'Utility Trenching',
+        name : 'Trenching',
         icon: <GiDigDug />,
         url: "https://primeservicespa.com",
     },
@@ -54,7 +54,7 @@ export const ToolBox: Tool[] = [
         url: "https://primeservicespa.com",
     },
     {
-        name:'Stormwater Management',
+        name:'Stormwater',
         icon: <MdWater />,
         url: 'https://primeservicespa.com',     
     },
@@ -74,27 +74,27 @@ export const ToolBox: Tool[] = [
         url: 'https://primeservicespa.com',     
     },
     {
-        name:'Stone Driveways Millings',
+        name:'Stone ',
         icon: <GiStonePath />,
         url: 'https://primeservicespa.com',     
     },
     {
-        name:'Stump Removal',
+        name:'Removal',
         icon: <GiStumpRegrowth />,
         url: 'https://primeservicespa.com',     
     },
     {
-        name:'Pool pre+demo',
+        name:'Pool',
         icon: <MdPool />,
         url: 'https://primeservicespa.com',     
     },
     {
-        name:'Paving',
+        name:'Paving ',
         icon: <GiOBrick />,
         url: 'https://primeservicespa.com',     
     },
     {
-        name:'Retaining Walls',
+        name:'Wall Retain',
         icon: <GiBrokenWall />,
         url: 'https://primeservicespa.com',     
     },
