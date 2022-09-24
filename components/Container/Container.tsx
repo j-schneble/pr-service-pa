@@ -77,7 +77,7 @@ export default function Container({
          
           <meta name='robots' content='follow, index' />
           <meta property='og:type' content={meta.type} />
-          <meta property='og:site_name' content='Jack Schneble' />
+          <meta property='og:site_name' content='Prime Services' />
           <meta property='og:description' content={meta.description} />
           <meta name='ogdescription' content={meta.description} />
           <meta name='og:image' content={meta.image} />

@@ -2,24 +2,19 @@ export const baseUrl =
   process.env.NODE_ENV === 'production' ? 'https://github.com' : ''
 
 export const defaultSEO = {
-  title: 'Jack Schneble',
-  description: 'Developer.',
+  title: 'PRIME SERVICES',
+  description: 'PRIME SERVICES',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: baseUrl,
-    site_name: 'Jack Schneble',
+    site_name: 'PRIME SERVICES',
     images: [
       {
         url: `${baseUrl}/static/images/logo.png`,
-        alt: 'Jack Schneble',
+        alt: 'PRIME SERVICES',
       },
     ],
-  },
-  twitter: {
-    handle: '@jschnebz',
-    site: '@jschnebz',
-    cardType: 'summary_large_image',
   },
 }
 

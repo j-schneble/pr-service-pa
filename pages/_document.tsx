@@ -11,7 +11,8 @@ export default function Document() {
           type='font/woff2'
           crossOrigin='anonymous'
         /> */}
-       
+        <link href='/images/primebtn.png' rel='shortcut icon' />
+        <link href='/static/favicons/site.webmanifest' rel='manifest' />
         {/* <link
           rel='preconnect'
           href='https://cdn.usefathom.com'
@@ -20,7 +21,7 @@ export default function Document() {
   
         <link
           color='#4a9885'
-          href='/images/logo.png'
+          href='/images/primebtn.png'
           rel='mask-icon'
         />
         <meta
