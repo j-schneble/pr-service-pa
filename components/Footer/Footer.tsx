@@ -1,6 +1,6 @@
 import React from 'react'
 import { RiInstagramLine} from 'react-icons/ri'
-import { IoLogoFacebook, IoLogoInstagram } from 'react-icons/io'
+import { FaFacebookF } from 'react-icons/fa'
 
 const Footer: React.FC = () => {
     return (
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
                   aria-label='Twitter'
                 >
                 
-                  <RiInstagramLine className='items-center h-auto text-center transition-all duration-200 rounded-md fill-current w-7 text-indigo-50 dark:text-pink-500 dark:hover:text-gray-300 hover:text-opacity-100' />
+                  <RiInstagramLine className='items-center w-8 h-auto p-2 text-center transition-all duration-200 rounded-md fill-current dark:bg-zinc-800 text-indigo-50 dark:text-gray-50 dark:hover:text-gray-300 hover:text-opacity-100' />
                 </a>
                 <a
                   href='https://www.facebook.com/primeservicespa/'
@@ -27,11 +27,11 @@ const Footer: React.FC = () => {
                   rel='noreferrer'
                   aria-label='Github'
                 >
-                  <IoLogoFacebook className='items-center h-auto text-center transition-all duration-200 rounded-md fill-current w-7 text-indigo-50 dark:text-blue-900 dark:hover:text-gray-300 hover:text-opacity-100' />
+                  <FaFacebookF className='items-center w-8 h-auto p-2 text-center transition-all duration-200 rounded-md fill-current dark:bg-zinc-800 text-indigo-50 dark:text-gray-50 dark:hover:text-gray-300 hover:text-opacity-100' />
                 </a>    
             </div>
           </div>
-          <p className='items-center p-2 text-xl font-semibold text-center text-black font-sfprodisplayregular'
+          <p className='items-center p-2 text-xl font-semibold text-center text-gray-50 font-sfprodisplayregular'
               
             
         

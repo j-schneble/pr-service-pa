@@ -5,5 +5,5 @@ export default function Layout({
 }: {
   children: React.ReactNode
 }): JSX.Element {
-  return <div className='relative w-full h-full min-h-screen '>{children}</div>
+  return <div className='relative w-full h-full min-h-screen abac2 '>{children}</div>
 }

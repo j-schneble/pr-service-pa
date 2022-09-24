@@ -223,7 +223,7 @@
   }
 
   .button-primary-y {
-    @apply flex items-center justify-center flex-none px-2 py-1 space-x-2 font-semibold leading-none text-gray-900 border border-black rounded shadow-sm cursor-pointer shadow-gray-100 dark:text-gray-50 hover:text-gray-1000 dark:bg-zinc-900 dark:hover:text-white dark:hover:border-opacity-50 ;
+    @apply flex items-center justify-center flex-none px-2 py-1 space-x-2 font-semibold leading-none text-gray-900 border-2 border-gray-700 rounded-md shadow-sm cursor-pointer shadow-black dark:text-gray-50 hover:text-gray-1000 dark:bg-white dark:hover:text-white dark:hover:border-opacity-50 ;
    
 
 
@@ -231,7 +231,8 @@
 
   .dark .bg-stickyy {
    /* fallback for old browsers */
-    background: transparent;
+ @apply bg-gray-1000 border border-gray-600
+
    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
      /* Just adjust the color or opacity to make the text pop! */
     

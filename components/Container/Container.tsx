@@ -12,6 +12,9 @@ import NavMenu from '../NavMenu/index'
 import { cn } from '../../lib/classNames'
 import { IoLogoFacebook, IoLogoInstagram } from 'react-icons/io'
 import Footer from '../Footer/index'
+import { GrFacebook, GrInstagram } from 'react-icons/gr'
+import { BsInstagram } from 'react-icons/bs'
+import { FaFacebookF } from 'react-icons/fa'
 
 interface IContainerProps {
   back?: {
@@ -145,7 +148,7 @@ export default function Container({
                   aria-label='Twitter'
                 >
                 
-                  <RiInstagramLine className='w-6 h-auto transition-all duration-200 rounded-md fill-current text-indigo-50 dark:text-pink-500 dark:hover:text-gray-300 hover:text-opacity-100' />
+                  <BsInstagram className='w-10 h-auto p-2 transition-all duration-200 rounded-md fill-current dark:bg-zinc-800 text-indigo-50 dark:text-gray-50 dark:hover:text-gray-300 hover:text-opacity-100' />
                 </a>
                 <a
                   href='https://www.facebook.com/primeservicespa/'
@@ -154,7 +157,7 @@ export default function Container({
                   rel='noreferrer'
                   aria-label='Github'
                 >
-                  <IoLogoFacebook className='w-6 h-auto transition-all duration-200 rounded-md fill-current text-indigo-50 dark:text-blue-900 dark:hover:text-gray-300 hover:text-opacity-100' />
+                  <FaFacebookF className='w-10 h-auto paddingicon transition-all duration-200 rounded-md fill-current dark:bg-zinc-800 text-indigo-50 dark:text-gray-50 dark:hover:text-gray-300 hover:text-opacity-100' />
                 </a>    
               </div>
             )}
