@@ -66,9 +66,9 @@ import {
 
         <div className='flex items-center mb-2 text-center bg-black rounded-full shadow-sm shadow-gray-800 place-content-evenly'>
           <button className='rowbut '>
-            <h1 className='flex items-center px-1 py-2 text-2xl font-medium text-center text-white rounded-full font-sfprodisplayregular'>
+            <Link href='/contact' className='flex items-center px-1 py-2 text-2xl font-medium text-center text-white rounded-full font-sfprodisplayregular'>
          Contact Us
-            </h1>
+            </Link>
           </button>
         </div>
 
