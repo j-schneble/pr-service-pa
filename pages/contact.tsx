@@ -77,13 +77,13 @@ const Contact = () => {
     <Container className='overflow-none overscroll-y-none overflow-y-none over' >
        <Box  >
         <form  onSubmit={handleSubmit}>
-        <div className='py-2 border rounded-sm border-zinc-900 bg-zinc-200/75'>
-          <div className='grid grid-rows-1 gap-1 pt-1 pl-1 '>
-            <h1 className='flex items-start w-24 text-2xl font-black tracking-normal text-black border-b-4 border-orange-500 contmob font-sfprodisplayheavy'>P R I M E</h1>
+        <div className='bg-transparent border border-none rounded-sm ring-1 ring-black/10 filter-blur'>
+          <div className='grid grid-rows-1 gap-1 pt-1 pl-2 '>
+            <h1 className='flex items-start w-24 text-2xl font-black tracking-normal text-white border-b-2 border-orange-500 contmob font-sfprodisplayheavy'>P R I M E</h1>
    
-            <h1 className='flex items-start text-lg font-light tracking-widest text-left text-gray-500 font-sfprodisplayregular'>SERVICES</h1>
+            <h1 className='flex items-start text-lg tracking-widest text-left text-gray-500 font-sfprodisplayregular'>SERVICES</h1>
           </div>
-        <Box className='mt-1 bg-gray-900 shadow shadow-gray-700'> 
+        <Box className='mt-1 bg-gray-1000'> 
           <div className='flex flex-row items-center gap-4 p-3 text-center place-content-evenly contmobgroup item-center place-items-evenly'>
 
                 <h1 className='text-xl font-bold text-white contmobphrase font-sfprodisplayregular'>
@@ -91,7 +91,7 @@ const Contact = () => {
                 </h1>
 
                   <h1 className='text-xl font-bold text-white contmobphrase font-sfprodisplayregular'>
-                 1+(610) 955-7424
+                 (610) 955-7424
                   </h1>
 
           </div>
@@ -100,9 +100,9 @@ const Contact = () => {
          <div className='px-2 mt-2 '>
   
           <FormControl   >
-            <div className='grid grid-cols-2 gap-2 '>
+            <div className='grid grid-cols-1 gap-2 '>
               <Box >
-                 <FormLabel className='mb-2 ml-1 text-lg font-medium text-gray-700 font-sfprodisplayregular' key={'name'}>Full Name </FormLabel>
+                 <FormLabel className='mb-1 ml-1 text-lg font-medium text-gray-100 font-sfprodisplayregular' key={'name'}>Full Name </FormLabel>
                   <Input 
                     className='w-full py-2 pl-1 text-gray-100 bg-gray-700 rounded-sm shadow-xs contactname'
                     id='name'
@@ -113,7 +113,7 @@ const Contact = () => {
                   />
               </Box>
             <Box>
-                <FormLabel className='mb-2 ml-1 text-lg font-medium text-gray-700 font-sfprodisplayregular'  key={'email'}>Email</FormLabel>
+                <FormLabel className='mb-1 ml-1 text-lg font-medium text-gray-100 font-sfprodisplayregular'  key={'email'}>Email</FormLabel>
                   <Input 
                     className='w-full py-2 pl-1 rounded-sm shadow-xs contactname '
                     id='email'
@@ -128,7 +128,7 @@ const Contact = () => {
 
           <FormControl className='mt-4 ' >
             <FormLabel 
-              className='pt-1 pb-1 pl-2 text-lg font-medium text-gray-700 font-sfprodisplayregular' 
+              className='pt-1 pb-1 pl-2 text-lg font-medium text-gray-100 font-sfprodisplayregular' 
               htmlFor="message" key={'message'}>
               Message
             </FormLabel>

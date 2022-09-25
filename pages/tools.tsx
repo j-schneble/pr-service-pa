@@ -14,10 +14,10 @@ const Tools = () => {
                    
                    </div>
                    <div
-                   className='items-center text-center bg-gray-900 border-2 border-gray-800 rounded-sm shadd backdropblur-20 '
+                   className='items-center text-center border-2 border-gray-200 rounded-sm ho '
                   >
-   <div className='items-center text-center tcol'>
-            <div className='grid grid-cols-3 grid-rows-2 gap-2 tcol'>
+   <div className='items-center text-center tcol '>
+            <div className='grid grid-cols-3 grid-rows-2 gap-2 tcol '>
                     {/* Lazy */}
           {ToolBox.sort((a, b) => {
             if (a.name < b.name) {

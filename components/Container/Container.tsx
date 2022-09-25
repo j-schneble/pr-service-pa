@@ -15,6 +15,7 @@ import Footer from '../Footer/index'
 import { GrFacebook, GrInstagram } from 'react-icons/gr'
 import { BsInstagram } from 'react-icons/bs'
 import { FaFacebookF } from 'react-icons/fa'
+import { FiInstagram } from 'react-icons/fi'
 
 interface IContainerProps {
   back?: {
@@ -102,11 +103,11 @@ export default function Container({
               
               <Image
                           layout='fixed'
-                         width='40px'
-                         height='38px'
+                         width='42px'
+                         height='40px'
                           className=''
                            
-                            src="/images/primebtn.png"
+                            src="/images/pforbutton.png"
                           alt='prime'
                            
                         />
@@ -148,7 +149,7 @@ export default function Container({
                   aria-label='Twitter'
                 >
                 
-                  <BsInstagram className='w-10 h-auto p-2 transition-all duration-200 rounded-md fill-current dark:bg-zinc-800 text-indigo-50 dark:text-gray-50 dark:hover:text-gray-300 hover:text-opacity-100' />
+                  <IoLogoInstagram className='h-auto p-1 transition-all duration-200 rounded-md fill-current w-9 dark:bg-zinc-800 text-indigo-50 dark:text-zinc-200 dark:hover:text-gray-300 hover:text-opacity-100' />
                 </a>
                 <a
                   href='https://www.facebook.com/primeservicespa/'
@@ -157,7 +158,7 @@ export default function Container({
                   rel='noreferrer'
                   aria-label='Github'
                 >
-                  <FaFacebookF className='w-10 h-auto paddingicon transition-all duration-200 rounded-md fill-current dark:bg-zinc-800 text-indigo-50 dark:text-gray-50 dark:hover:text-gray-300 hover:text-opacity-100' />
+                  <FaFacebookF className='h-auto transition-all duration-200 rounded-md fill-current w-9 paddingicon dark:bg-zinc-800 text-indigo-50 dark:text-zinc-200 dark:hover:text-gray-300 hover:text-opacity-100' />
                 </a>    
               </div>
             )}

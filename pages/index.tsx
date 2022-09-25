@@ -15,8 +15,8 @@ import {
    } from '@chakra-ui/react'
    import Tools from './tools'
    import {BiPhoneCall } from 'react-icons/bi'
-
-   import { GrFacebook, GrInstagram } from 'react-icons/gr'
+import { FiMessageCircle } from 'react-icons/fi'
+   import { MdOutlineContactPage} from 'react-icons/md'
 
   const Home: NextPage = () => {
 
@@ -26,67 +26,102 @@ import {
       
   
      
-      <Container className='top-20' >
+      <Container className='top-20 ' >
         <div className='grid items-center grid-rows-1 gap-1 pb-1 text-center place-content-evenly '>
           
-           <h1 className='flex items-center font-black tracking-widest text-center text-black border-b-2 border-orange-500 place-content-evenly text-8xl indent-1 tx font-sfprodisplayheavy'>  PRIME   </h1>
-           <h1 className='flex items-center font-light tracking-wider text-center text-gray-500 text-7xl txsmall font-sfprodisplayregular'>  SERVICES  </h1>
+           <h1 className='flex items-center font-black tracking-widest text-center text-white border-b-2 border-orange-500 place-content-evenly text-8xl indent-1 tx hov font-sfprodisplayheavy'>  PRIME   </h1>
+           <h1 className='flex items-center font-light tracking-wider text-center text-gray-500 text-7xl txsmall hov font-sfprodisplayregular'>  SERVICES  </h1>
         </div>
 
         <div className='flex items-center '>
-           <div className='pb-2 text-xl font-light text-center border-b-2 border-zinc-400 text-gray-50 txs font-sfprodisplayregular'>
+           <div className='pb-2 text-xl font-light text-center text-gray-50 txs font-sfprodisplayregular'>
             <p className=''>
               Excavation and Landscaping company serving Chester County and surrounding areas.   
             </p>
           </div> 
        </div> 
-<div className='pb-2 border-b-2 border-zinc-400'>
+       <Box className='mt-1 '> 
+          <div className='grid items-center grid-cols-2 gap-4 p-3 text-center place-content-evenly homecallgc item-center place-items-evenly'>
+          <div className="justify-center rounded-lg centered-label galbtn ring-1 ring-black/10 bg-primary filter-blur ">
+	<a className="flex items-center gap-4 p-2 text-xl font-light text-center text-zinc-300 font-sfprodisplayregular " href="#popup1"><span className='text-xl text-white'> Contact Info</span><p className='text-white'><MdOutlineContactPage color='white' size={25} /></p></a>
+</div>
+
+<div id="popup1" className="overlayup">
+	<div className="inset-0 z-10 popupup bg-primary filter-blur',
+                ' shadow-2xl ',
+                'ring-1 ring-black/10 ',
+                'flex flex-col'">
+  <div className="edge"> </div>
+  <div className='grid grid-rows-1 gap-1 pt-1 pl-1 '>
+            <h1 className='flex items-start w-24 text-2xl font-black tracking-normal border-b-4 border-orange-500 text-zinc-100 contmob font-sfprodisplayheavy'>P R I M E</h1>
+   
+            <h1 className='flex items-start text-lg tracking-widest text-left text-gray-500 font-sfprodisplayregular'>SERVICES</h1>
+          </div>
+          <div className='pt-2 '>
+
+     
+		<h2 className='font-light text-zinc-100 font-sfprodisplayregular'>Primeservicespa@gmail.com</h2>
+    <div className='grid items-center grid-cols-2 gap-2 text-center place-content-evenly contmobgroup place-items-evenly'>
+
+                <h1 className='text-lg text-zinc-100 contmobphrase font-sfprodisplayregular'>
+                Call for a FREE estimate
+                </h1>
+
+                  <h1 className='text-lg zinc-100 contmobphrase font-sfprodisplayregular'>
+                 (610) 955-7424
+                  </h1>
+
+          </div>
 
 
-    <div className=' gal'>
-          <img src='/images/img1.png'  alt='galer' />
-          <img src='/images/img2.png'  alt='galer' />
-          <img src='/images/img3.png' alt='galer' />
-          <img src='/images/img4.png'  alt='galer' />
-          <img  src='/images/img6.png'  alt='galer' />
-          <img  src='/images/img7.png'  alt='galer' />
-          <img  src='/images/img8.png'  alt='galer' />
-          <img  src='/images/img9.png'  alt='galer' />
-          <img  src='/images/img10.png'  alt='galer' />
-          <img  src='/images/img12.png' alt='galer' />
-          <img  src='/images/img13.png' alt='galer' />
-          <img src='/images/img14.png' alt='galer' />
+  <div className='grid grid-cols-2 gap-2'>
+  <h1 className='text-lg text-zinc-100 font-sfprodisplayregular'>Monday - Friday</h1>
+  <h1 className='text-lg text-zinc-100 font-sfprodisplayregular'>8am - 7pm</h1>
+  </div>
+  
 
-      <div className='grid items-center grid-cols-3 gap-3 pb-4 mt-6 text-center rounded-sm btt place-content-evenly '>
-        <div className='mobgone'>
-          <h1 className='px-1 py-1 text-lg font-semibold text-white border-t-2 border-b-2 border-orange-500 rowsm bg-gray-800/75 font-sfprodisplayregular '>
-              Monday - Friday
-          </h1>
-        </div>
+<div className='flex flex-row mt-4 '>
+<Link href='contact' className='p-2 font-medium text-orange-600 rounded-full text-md font-sfprodisplayregular'>
+                Send a message 
+                    </Link>
+</div>
+		<a className="closeup" href="#">&times;</a>
+		</div>
+	</div>
+</div>
+                  <div className='p-2 rounded-lg galbtn homecallgc2 ring-1 ring-black/10 bg-primary filter-blur'>
+                    <Link href='gallery' className='p-3 text-xl font-light tracking-wider text-white -z-10 font-sfprodisplayregular'>
+                   View Gallery ⮕ 
+                    </Link>
+                  </div>
+                
+             
+             
 
-        <div className='flex items-center mb-2 text-center bg-black rounded-full shadow-sm shadow-gray-800 place-content-evenly'>
-          <button className='rowbut '>
-            <Link href='/contact' className='flex items-center px-1 py-2 text-2xl font-medium text-center text-white rounded-full font-sfprodisplayregular'>
-         Contact Us
-            </Link>
-          </button>
-        </div>
+          </div>
+          
+        </Box>
 
-        <div className='mobgone'>
-          <h1 className='px-1 py-1 text-lg font-medium text-white border-t-2 border-b-2 border-orange-500 rowsm bg-gray-800/75 font-sfprodisplayregular '>
-            8am - 7pm
-          </h1>
-        </div>
-      </div>
-    </div>
+     
+<div className='pb-2 '>
+
+
+   
     </div>
     <div className='flex items-center mb-2 text-center bg-black rounded-full shadow-sm shadow-gray-800 place-content-evenly'>
      </div>
 
-      <div className='grid items-center grid-rows-1 mx-auto'>
-        <h1 className='items-center pb-4 text-3xl font-medium text-center text-orange-500 font-sfprodisplayregular'>
-        ⇣ Services We Offer ⇣
+      <div className='grid items-center grid-cols-3 text-center mobmobile place-items-center'>
+      <h1 className='text-lg mobgone text-zinc-200 font-sfprodisplayregular'>
+              Monday - Friday
+          </h1>
+         
+        <h1 className='font-medium text-orange-600 service font-sfprodisplayregular'>
+        ⇣ Our Services ⇣ 
         </h1>
+        <h1 className='text-lg mobgone text-zinc-200 font-sfprodisplayregular'>
+            8am - 7pm
+          </h1>
       </div>
   
   <div className='tool'>

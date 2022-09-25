@@ -404,8 +404,8 @@ background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Fir
   }
 .abac2 {
   background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #3a3a3a, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #3a3939, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to bottom, #232323, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #2b2a2a, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -447,45 +447,41 @@ background: linear-gradient(to bottom, #3a3939, #000000); /* W3C, IE 10+/ Edge, 
 display: none;
 }
 }
+@media screen and (max-width: 700px) {
+  .homecallgc {
+  gap: 2px;
+  padding: 2px;
+  }
+  }
+
+  @media screen and (max-width: 700px) {
+    .homecallgc2 {
+    gap: 2px;
+  
+ padding-left: 1px;
+ padding-right: 1px;
+    }
+    }
+
+
+
+@media screen and (max-width: 700px) {
+  .homecall {
+  font-size: 0.85rem;
+  }
+  }
 .gal {
   --d: 50s;
   display:grid;
   overflow: hidden;
   width: 642px;
-  height:200px;
+  height:400px;
   -webkit-mask: linear-gradient(90deg,#0000, #000 0% 100%, #0000);
 }
 @media screen and (max-width: 700px) {
   .gal {
     width: 360px;
     height:190px;
-  }
-}
-.gal > img {
-  grid-area: 1/1;
-  width: 100%;
-  aspect-ratio: 1.5;
-  object-fit: cover;
-  animation: r var(--d) linear infinite;
-}
-.gal > img:nth-child(2) {
-  animation-delay: calc(-0.2*var(--d));
-}
-.gal > img:nth-child(3) {
-  animation-delay: calc(-0.4*var(--d));
-}
-.gal > img:nth-child(4) {
-  animation-delay: calc(-0.6*var(--d));
-}
-.gal > img:nth-child(5) {
-  animation-delay: calc(-0.8*var(--d));
-}
-@keyframes r {
-  80% {
-    transform: translate(-400%);
-  }
-  80.01% {
-    transform: translate(100%);
   }
 }
 
@@ -513,25 +509,53 @@ display: none;
     transition: opacity 0.3s ease-in-out;
   }
   }
+
+  @media screen and (max-width: 700px) {
+    .gridmob{
+      display: grid;
+      grid-template-columns: 3;
+      align-items: center;
+      font-size: 1.2rem;
+    }
+  }
   
 
 @media screen and (max-width: 700px) {
   .rowsm {
-   font-size: 13px;
-   padding: 2;
-   display: grid;
-   grid-template-rows: 1;
+   display: block;
+   display: none;
+  
+   
   }
 }
+@media screen and (max-width: 700px) {
+.mobmobile {
+  font-size: 1.7rem ;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+     grid-column-start: span 2;
+        grid-template-rows: repeat(1, minmax(0, 1fr));
+       
+  text-align: center;
+  align-items: center;
+}
+}
+
+.service {
+  font-size: 1.68rem ;
+}
+
+
+
 @media screen and (max-width: 700px) {
   .rowbut {
    font-size: 20px; 
    font-family: "sfprodisplayregular";
    display: grid;
    grid-template-rows: 1;
-padding: 4px;
+padding-left: 6px;
+padding-right: 6px;
 border: 2px solid;
-border-color: rgb(255, 140, 0);
+border-color: rgb(255, 115, 0);
 border-radius:99999px;
 
  
@@ -604,6 +628,277 @@ border-radius:99999px;
 
 /* facebook icon container nav */
 .paddingicon {
-  padding:0.6rem;
+  padding:0.5rem;
 }
 /* facebook icon container nav */
+
+.mobileicon {
+  --tw-border-opacity: 1;
+    border-color: rgb(234 88 12 / var(--tw-border-opacity));
+    border: 2px solid;
+}
+
+#contai {
+	width: 35em;
+	margin: 3em auto;
+}
+.button-main {
+	width: 5em;
+	height: 5em;
+	background-color: #999;
+	background-image: linear-gradient(180deg, #CCC, #999);
+	border-top: 3px solid #CCC;
+	border-right: 3px solid #CCC;
+	border-left: 4px solid #666;
+	border-bottom: 4px solid #666;
+	border-radius: 1em;
+	float: left;
+	margin: 3em;
+	text-decoration: none;
+	
+	transition: box-shadow 0.3s,
+				border-top 0.3s,
+				border-right 0.3s;
+}
+
+.galbtn:hover, .galbtn-main:focus {
+	box-shadow: .1em -.1em 0 rgb(0, 0, 0),
+			
+				inset -.1em -.1em 2em rgb(255, 111, 0),
+				-.1em -.1em 2em rgb(0, 0, 0);
+	border-top: 3px solid rgb(0, 0, 0);
+	border-right: 3px solid rgb(0, 0, 0);
+  border-left: 3px solid rgb(0, 0, 0);
+  border-bottom:3px solid rgb(0, 0, 0);
+  
+}
+
+.button-inside {
+	width: 4em;
+	height: 4em;
+	margin: .5em auto;
+	border-radius: .8em;
+	background-color: #CCC;
+	background-image: linear-gradient(45deg, #CCC, #999);
+	box-shadow: inset -.15em .15em 0 #666,
+				inset .1em -.1em 0 #CCC;
+}
+
+
+
+.boxup {
+
+  
+}
+
+.buttonup {
+
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.buttonup:hover {
+  background: #06D85F;
+}
+
+.overlayup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlayup:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popupup {
+  margin:70px auto;
+  padding: 2x;
+  z-index: 40;
+  overflow-x: hidden;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 1px solid black;
+  background: linear-gradient(to right, rgba(48, 48, 48, 0.2), rgba(39, 39, 39, 0.2));
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  width: 40%;
+  position: relative;
+  backdrop-filter: blur(10px);
+
+}
+.popupup .edge {
+  background:  #808080;
+border-right: 1px solid #212121;
+position: absolute;
+}
+
+
+.popupup h2 {
+  margin-top: 0;
+
+}
+.popupup .closeup {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+font-weight: 800;
+  text-decoration: none;
+  color: #333;
+}
+.popupup .closeup:hover {
+  color: #ff0000;
+}
+.popupup .contentup {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .boxup{
+    width: 70%;
+  }
+  .popupup{
+    width: 85%;
+  }
+}
+.centered-label {
+  display: flex;
+  align-items: center;
+}
+
+.glassattempt {
+  width: 30%;
+  position: relative;
+  margin: 70px auto;
+  padding: 20px;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(0px);
+  overflow: hidden;
+  opacity: 0.2;
+  animation: 1.5s formInAnim cubic-bezier(.03,1.08,.71,.95) forwards;
+  animation-delay: 1s;
+}
+@keyframes formInAnim {
+  0% {
+    opacity: .2;
+    top: -700px;
+    backdrop-filter: blur(0px);
+  }
+  
+  100% {
+    opacity: 1;
+    top: 0;
+    backdrop-filter: blur(15px) ;
+  }
+}
+
+
+
+  .titlr{
+  
+    text-shadow: var(--x-shadow) var(--y-shadow) 10px #1A1A1A;
+  }
+.gradient-card {
+  box-shadow: 0.75em 0.75em 1em 0 rgba(0, 0, 0, 0.25);
+ 
+  overflow: hidden;
+}
+
+
+  .grad {
+    background-color: rgb(0, 0, 0), rgb(67, 67, 67);
+  }
+
+  .gradient-name {
+    color: white;
+    text-shadow: 0 0 0.5em black;
+  }
+  
+  .gradient-colorbox {
+    width: 1em;
+    height: 1em;
+    box-shadow: 0 0 0.1em black;
+  }
+  .hov {
+    
+
+    transition: all 0.3s ease;
+
+  }
+  .hov:hover {
+    transform: translate3d(0, -10px, 22px);
+    color: #ff6302;
+  }
+
+  .ho {
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    z-index: 3;
+    border-radius: 4px;
+    border: 2px solid rgb(2, 2, 2);
+    box-shadow: 2px 10px 20px 0 rgb(0, 0, 0);
+    background: linear-gradient(90deg, #050505 15px, transparent 1%) center,
+    linear-gradient(#050505 15px, transparent 1%) center,
+    rgba(255, 255, 255, 0.12);
+  
+    background-size: 16px 16px;
+  }
+
+  .contactho {
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+    z-index: 3;
+    border-radius: 4px;
+    border: 2px solid rgb(2, 2, 2);
+    box-shadow: 2px 10px 20px 0 rgb(0, 0, 0);
+    background: linear-gradient(90deg, #050505 15px, transparent 1%) center,
+    linear-gradient(#050505 15px, transparent 1%) center,
+    rgba(255, 255, 255, 0.12);
+  
+    background-size: 16px 16px;
+  }
+
+  .hoho {
+    box-shadow: 2px 10px 20px 0 rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.95);
+    background-blend-mode: overlay;
+  }
+
+
+
+  .square {
+    border: 1px solid black;
+    height: 300px;
+    width: 600px;
+    transform: rotate(30deg);
+    margin: 200px;
+    background: linear-gradient(to right, #333333, black);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    
+    animation: slide 4s alternate infinite ease;
+ }
+
+ 
+ .square .edge {
+     height: 100%;
+     width: 1px;
+     background:  #808080;
+     border-right: 1px solid #212121;
+     position: absolute;
+ }
+
+ .bgo {
+  background-color: #121212;
+ }
+

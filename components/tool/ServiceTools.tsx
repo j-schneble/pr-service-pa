@@ -19,7 +19,7 @@ interface ServiceProps {
             'flex  space-betweenitems-center',
             '',
             'rounded-lg ',
-            'cursor-pointer'
+            
           )}
           href={url}
           target='_blank'
@@ -28,7 +28,7 @@ interface ServiceProps {
          <div className='flex p-4 '>
           <div className='pl-2 pr-1 text-xl text-orange-500 rounded-full '>{icon}</div>
         <div className=''>
-          <h2 className='text-white font-regular font-sfprodisplayregular'>{name}</h2>
+          <h2 className='text-white font-regular gradient-name font-sfprodisplayregular '>{name}</h2>
             </div>
           </div>
         </a>

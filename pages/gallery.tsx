@@ -20,19 +20,19 @@ const Gallery = () => {
 
 <div className='grid grid-cols-3 gap-2 pb-2 mb-4 rounded-sm '>
 
-<div className='items-center text-center border-b-2 border-orange-500 rounded-sm shadow serv2'>
+<div className='items-center text-center border-b-2 border-orange-500 rounded-sm shadow hoho'>
   <h1 className='items-center text-lg font-medium text-center text-white gallerymobile font-sfprodisplayregular '>
     Clean.
     </h1>
   </div>
 
-  <div className='items-center text-center border-b-2 border-orange-500 rounded-sm shadow serv2'>
+  <div className='items-center text-center border-b-2 border-orange-500 rounded-sm shadow hoho'>
   <h1 className='items-center text-lg font-semibold text-center text-white gallerymobile font-sfprodisplayregular '>
     Punctual.
     </h1>
   </div>
 
-  <div className='items-center text-center border-b-2 border-orange-500 rounded-sm shadow serv2'>
+  <div className='items-center text-center border-b-2 border-orange-500 rounded-sm shadow hoho'>
   <h1 className='items-center text-lg font-semibold text-center text-white gallerymobile font-sfprodisplayregular '>
     Professional. 
     </h1>
