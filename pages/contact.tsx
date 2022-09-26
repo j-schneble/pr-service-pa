@@ -84,15 +84,12 @@ const Contact = () => {
             <h1 className='flex items-start text-lg tracking-widest text-left text-gray-500 font-sfprodisplayregular'>SERVICES</h1>
           </div>
         <Box className='mt-1 bg-gray-1000'> 
-          <div className='flex flex-row items-center gap-4 p-3 text-center place-content-evenly contmobgroup item-center place-items-evenly'>
+          <div className='grid items-center grid-cols-1 gap-4 p-3 text-center place-content-evenly contmobgroup item-center place-items-evenly'>
 
-                <h1 className='text-xl font-bold text-white contmobphrase font-sfprodisplayregular'>
-                Call for a FREE estimate!
-                </h1>
+                <a href="tel:6109557424" className='text-xl font-bold text-white hover:text-opacity-50 contmobphrase font-sfprodisplayregular'>
+                Call now for a FREE estimate!
+                </a>
 
-                  <h1 className='text-xl font-bold text-white contmobphrase font-sfprodisplayregular'>
-                 (610) 955-7424
-                  </h1>
 
           </div>
         </Box>
@@ -143,7 +140,7 @@ const Contact = () => {
           </FormControl>
           <FormControl>
             <Button 
-              className='w-full px-2 py-2 mt-5 bg-orange-500'
+              className='w-full px-2 py-2 mt-5 bg-orange-500 hover:bg-opacity-50'
               marginLeft={'1'}
               marginRight={'1'}
               variant="solid"
@@ -152,7 +149,7 @@ const Contact = () => {
               isLoading={isLoading}
               loadingText='Sending'                                            
               >
-                <p className='w-full font-semibold tracking-wider text-white font-sfprodisplayregular'>
+                <p className='w-full font-semibold tracking-wider text-white hover:text-opacity-50 font-sfprodisplayregular'>
                   Send Message 
                 </p>
               </Button>

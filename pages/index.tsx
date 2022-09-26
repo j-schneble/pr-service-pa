@@ -73,25 +73,23 @@ Monday - Friday
   </h1>
 
 </div>
-          <div className='grid items-center grid-cols-2 gap-2 text-center place-content-evenly contmobgroup place-items-evenly'>
+          <div className='grid items-center grid-cols-1 gap-2 mt-3 text-center place-content-evenly contmobgroup place-items-evenly'>
 
-<h1 className='text-lg text-white/90 contmobphrase font-sfprodisplayregular'>
+<a href="tel:6109557424" className='text-lg text-orange-600 hover:text-opacity-50 contmobphrase font-sfprodisplayregular'>
 Call for a FREE estimate
-</h1>
+</a>
 
-  <h1 className='text-lg text-white/90 contmobphrase font-sfprodisplayregular'>
- (610) 955-7424
-  </h1>
+ 
 
 </div>
      
-          <div className='grid items-center grid-cols-1 gap-2 mt-2 text-center place-content-evenly contmobgroup place-items-evenly'>
+          <div className='grid items-center grid-cols-1 gap-2 mt-1 mb-3 text-center place-content-evenly contmobgroup place-items-evenly'>
 
 
 
-  <h1 className='items-center text-lg text-center text-white/90 contmobphrase font-sfprodisplayregular'>
- Primeservicespa@gmail.com
-  </h1>
+  <a href="mailto:primeservicespa@gmail.com" className='items-center py-1 text-lg text-center text-orange-600 hover:text-opacity-50 contmobphrase font-sfprodisplayregular'>
+Email us 
+  </a>
   </div>
 </div>
   
@@ -99,11 +97,6 @@ Call for a FREE estimate
 
   
 
-<div className='flex flex-row mt-4 '>
-<Link href='contact' className='p-2 font-medium text-orange-600 rounded-full text-md font-sfprodisplayregular'>
-                Send a message 
-                    </Link>
-</div>
 		<a className="closeup" href="#">&times;</a>
 		</div>
 	</div>
