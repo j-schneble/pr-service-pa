@@ -125,7 +125,7 @@ const Contact = () => {
 
           <FormControl className='mt-4 ' >
             <FormLabel 
-              className='pt-1 pb-1 pl-2 text-lg font-medium text-white/90 font-sfprodisplayregular' 
+              className='pt-1 pb-1 pl-1 text-lg font-medium text-white/90 font-sfprodisplayregular' 
               htmlFor="message" key={'message'}>
               Message
             </FormLabel>
