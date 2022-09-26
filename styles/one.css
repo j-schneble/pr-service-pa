@@ -662,14 +662,14 @@ border-radius:99999px;
 }
 
 .galbtn:hover, .galbtn-main:focus {
-	box-shadow: .1em -.1em 0 rgb(0, 0, 0),
-			
-				inset -.1em -.1em 2em rgb(255, 111, 0),
-				-.1em -.1em 2em rgb(0, 0, 0);
-	border-top: 3px solid rgb(0, 0, 0);
-	border-right: 3px solid rgb(0, 0, 0);
-  border-left: 3px solid rgb(0, 0, 0);
-  border-bottom:3px solid rgb(0, 0, 0);
+	
+	cursor: pointer;
+	color:#00000080;
+
+}
+
+.conbutton:hover, .conbutton-main:focus {
+
   
 }
 
@@ -686,10 +686,7 @@ border-radius:99999px;
 
 
 
-.boxup {
 
-  
-}
 
 .buttonup {
 
@@ -722,14 +719,14 @@ border-radius:99999px;
   padding: 2x;
   z-index: 40;
   overflow-x: hidden;
-  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.9);
   border: 1px solid black;
   background: linear-gradient(to right, rgba(48, 48, 48, 0.2), rgba(39, 39, 39, 0.2));
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
-  width: 40%;
+  width: 30%;
   position: relative;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(30px);
 
 }
 .popupup .edge {
@@ -838,6 +835,35 @@ font-weight: 800;
     transform: translate3d(0, -10px, 22px);
     color: #ff6302;
   }
+  .hov2 {
+    
+
+    transition: all 0.3s ease;
+
+  }
+  .hov2:hover {
+    transform: translate3d(0, -10px, 22px);
+    background-color: #ff6302;
+    transition: all 0.3s ease-out;
+  }
+  .hov3 {
+    
+
+    transition: all 0.3s ease;
+
+  }
+  .hov3:hover {
+    transform: scale(1.2);
+    z-index: 40;
+ 
+    
+    transition: opacity 100ms;
+    
+    
+    transition: all 0.3s ease-out;
+  
+  }
+
 
   .ho {
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);

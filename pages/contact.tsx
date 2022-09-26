@@ -102,7 +102,7 @@ const Contact = () => {
           <FormControl   >
             <div className='grid grid-cols-1 gap-2 '>
               <Box >
-                 <FormLabel className='mb-1 ml-1 text-lg font-medium text-gray-100 font-sfprodisplayregular' key={'name'}>Full Name </FormLabel>
+                 <FormLabel className='mb-1 ml-1 text-lg font-medium text-white/90 font-sfprodisplayregular' key={'name'}>Full Name </FormLabel>
                   <Input 
                     className='w-full py-2 pl-1 text-gray-100 bg-gray-700 rounded-sm shadow-xs contactname'
                     id='name'
@@ -113,7 +113,7 @@ const Contact = () => {
                   />
               </Box>
             <Box>
-                <FormLabel className='mb-1 ml-1 text-lg font-medium text-gray-100 font-sfprodisplayregular'  key={'email'}>Email</FormLabel>
+                <FormLabel className='mb-1 ml-1 text-lg font-medium text-white/90 font-sfprodisplayregular'  key={'email'}>Email</FormLabel>
                   <Input 
                     className='w-full py-2 pl-1 rounded-sm shadow-xs contactname '
                     id='email'
@@ -128,7 +128,7 @@ const Contact = () => {
 
           <FormControl className='mt-4 ' >
             <FormLabel 
-              className='pt-1 pb-1 pl-2 text-lg font-medium text-gray-100 font-sfprodisplayregular' 
+              className='pt-1 pb-1 pl-2 text-lg font-medium text-white/90 font-sfprodisplayregular' 
               htmlFor="message" key={'message'}>
               Message
             </FormLabel>
@@ -152,7 +152,7 @@ const Contact = () => {
               isLoading={isLoading}
               loadingText='Sending'                                            
               >
-                <p className='w-full font-semibold tracking-wider text-gray-50 font-sfprodisplayregular'>
+                <p className='w-full font-semibold tracking-wider text-white font-sfprodisplayregular'>
                   Send Message 
                 </p>
               </Button>

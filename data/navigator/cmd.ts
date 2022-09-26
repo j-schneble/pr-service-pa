@@ -11,19 +11,19 @@ export type Action = {
   
   export const Navigation: Action[] = [
     {
-      name: 'Home',
+      name: 'Home ',
       keywords: 'home',
       href: '/',
       section: 'Navigation',
     },
     {
-      name: 'Gallery',
+      name: 'Gallery ',
       keywords: 'gallery',
       href: '/gallery',
       section: 'Navigation',
     },
     {
-      name: 'Contact',
+      name: 'Contact ',
       keywords: 'contact',
       href: '/contact',
       section: 'Navigation',

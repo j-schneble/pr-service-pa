@@ -22,7 +22,7 @@ export default function GalleryComp() {
             className='bg-gray-900 border border-gray-500 rounded-lg cursor-pointer shadowguy group hover:bg-gray-700'
           >
   
-            <div className='h-72 w-40% relative'
+            <div className='h-72 w-40% hov3 relative'
           >
    
               <Image

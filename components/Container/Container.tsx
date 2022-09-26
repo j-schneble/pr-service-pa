@@ -149,7 +149,7 @@ export default function Container({
                   aria-label='Twitter'
                 >
                 
-                  <IoLogoInstagram className='h-auto p-1 transition-all duration-200 rounded-md fill-current w-9 dark:bg-zinc-800 text-indigo-50 dark:text-zinc-200 dark:hover:text-gray-300 hover:text-opacity-100' />
+                  <IoLogoInstagram className='h-auto p-1 transition-all duration-200 rounded-md fill-current dark:hover:bg-opacity-75 dark:hover:text-orange-600 conbutton w-9 dark:bg-zinc-800 text-white/95 dark:text-white/95 hover:text-opacity-100' />
                 </a>
                 <a
                   href='https://www.facebook.com/primeservicespa/'
@@ -158,7 +158,7 @@ export default function Container({
                   rel='noreferrer'
                   aria-label='Github'
                 >
-                  <FaFacebookF className='h-auto transition-all duration-200 rounded-md fill-current w-9 paddingicon dark:bg-zinc-800 text-indigo-50 dark:text-zinc-200 dark:hover:text-gray-300 hover:text-opacity-100' />
+                  <FaFacebookF className='h-auto text-white transition-all duration-200 rounded-md fill-current conbutton dark:hover:text-orange-600 dark:hover:bg-opacity-75 w-9 paddingicon dark:bg-zinc-800 dark:text-white/95 hover:text-opacity-100' />
                 </a>    
               </div>
             )}
