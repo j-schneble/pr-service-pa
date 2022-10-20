@@ -29,7 +29,7 @@ import { FiMessageCircle } from 'react-icons/fi'
       <Container className='top-20 ' >
         <div className='grid items-center grid-rows-1 gap-1 pb-1 text-center place-content-evenly '>
           
-           <h1 className='flex items-center font-black tracking-widest text-center text-white border-b-2 border-orange-500 place-content-evenly text-8xl indent-1 tx hov font-sfprodisplayheavy'>  PRIME   </h1>
+           <h1 className='flex items-center font-black tracking-widest text-center text-white border-b-2 border-orange-500 place-content-evenly text-8xl indent-1 tx hov font-sfprodisplayheavy'>  PRIMO   </h1>
            <h1 className='flex items-center font-light tracking-wider text-center text-gray-500 text-7xl txsmall hov font-sfprodisplayregular'>  SERVICES  </h1>
         </div>
 
@@ -53,7 +53,7 @@ import { FiMessageCircle } from 'react-icons/fi'
                 'flex flex-col'">
   <div className="edge"> </div>
   <div className='grid grid-rows-1 gap-1 pt-1 pl-1 '>
-            <h1 className='flex items-start w-24 text-2xl font-black tracking-normal text-white border-b-4 border-orange-500 contmob font-sfprodisplayheavy'>P R I M E</h1>
+            <h1 className='flex items-start text-2xl font-black tracking-normal text-white border-b-4 border-orange-500 w-22 contmob font-sfprodisplayheavy'>P R I M O</h1>
    
             <h1 className='flex items-start text-lg tracking-widest text-left text-gray-500 font-sfprodisplayregular'>SERVICES</h1>
           </div>

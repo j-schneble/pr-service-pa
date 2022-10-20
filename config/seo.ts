@@ -2,17 +2,17 @@ export const baseUrl =
   process.env.NODE_ENV === 'production' ? 'https://github.com' : ''
 
 export const defaultSEO = {
-  title: 'PRIME SERVICES',
-  description: 'PRIME SERVICES',
+  title: 'PRIMO SERVICES',
+  description: 'PRIMO SERVICES',
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: baseUrl,
-    site_name: 'PRIME SERVICES',
+    site_name: 'PRIMO SERVICES',
     images: [
       {
         url: `${baseUrl}/static/images/logo.png`,
-        alt: 'PRIME SERVICES',
+        alt: 'PRIMO SERVICES',
       },
     ],
   },

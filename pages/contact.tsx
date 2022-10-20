@@ -79,7 +79,7 @@ const Contact = () => {
         <form  onSubmit={handleSubmit}>
         <div className='bg-transparent border border-none rounded-sm ring-1 ring-black/10 filter-blur'>
           <div className='grid grid-rows-1 gap-1 pt-1 pl-2 '>
-            <h1 className='flex items-start w-24 text-2xl font-black tracking-normal text-white border-b-2 border-orange-500 contmob font-sfprodisplayheavy'>P R I M E</h1>
+            <h1 className='flex items-start text-2xl font-black tracking-normal text-white border-b-2 border-orange-500 w-22 contmob font-sfprodisplayheavy'>P R I M O</h1>
    
             <h1 className='flex items-start text-lg tracking-widest text-left text-gray-500 font-sfprodisplayregular'>SERVICES</h1>
           </div>

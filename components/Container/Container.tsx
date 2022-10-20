@@ -41,8 +41,8 @@ export default function Container({
   projectsNav = '',
   showNav = true,
   children,
-  title = 'Prime Services.',
-  description = 'Prime Services.',
+  title = 'Primo Services.',
+  description = 'Primo Services.',
   image = '',
   date,
   ...props
@@ -78,7 +78,7 @@ export default function Container({
          
           <meta name='robots' content='follow, index' />
           <meta property='og:type' content={meta.type} />
-          <meta property='og:site_name' content='Prime Services' />
+          <meta property='og:site_name' content='Primo Services' />
           <meta property='og:description' content={meta.description} />
           <meta name='ogdescription' content={meta.description} />
           <meta name='og:image' content={meta.image} />
@@ -107,7 +107,7 @@ export default function Container({
                          height='40px'
                           className=''
                            
-                            src="/images/pforbutton.png"
+                            src="/images/prrimo.png"
                           alt='prime'
                            
                         />
@@ -142,7 +142,7 @@ export default function Container({
             {!projectsNav && (
               <div className='flex flex-row mr-1 space-x-4 item-center '>
                 <a
-                  href='https://www.instagram.com/primeservicespa/'
+                  href='https://www.instagram.com/'
                   className='visible lit2'
                   target='_blank'
                   rel='noreferrer'
@@ -152,7 +152,7 @@ export default function Container({
                   <IoLogoInstagram className='h-auto p-1 transition-all duration-200 rounded-md fill-current dark:hover:bg-opacity-75 dark:hover:text-orange-600 conbutton w-9 dark:bg-zinc-800 text-white/95 dark:text-white/95 hover:text-opacity-100' />
                 </a>
                 <a
-                  href='https://www.facebook.com/primeservicespa/'
+                  href='https://www.facebook.com/'
                   className='visible lit2'
                   target='_blank'
                   rel='noreferrer'
