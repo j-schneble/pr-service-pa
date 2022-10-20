@@ -1,7 +1,8 @@
-# Prime Services
+# Primo Services
+
+<img width="1680" alt="Screen Shot 2022-10-19 at 8 08 20 PM" src="https://user-images.githubusercontent.com/60337134/196827305-4fcc32b4-fef7-4ff0-bd40-392f69684186.png">
 
 
-<img width="1653" alt="Screen Shot 2022-09-24 at 11 29 50 PM" src="https://user-images.githubusercontent.com/60337134/192126959-1b7d64bb-46ae-44b2-a3a6-12e600341a73.png">
 
 
 ## Stack
