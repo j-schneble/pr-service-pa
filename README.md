@@ -1,14 +1,15 @@
 # Primo Services
 
-<img width="1680" alt="Screen Shot 2022-10-19 at 8 08 20 PM" src="https://user-images.githubusercontent.com/60337134/196827305-4fcc32b4-fef7-4ff0-bd40-392f69684186.png">
 
+
+<img width="1440" alt="prim" src="https://github.com/j-schneble/pr-service-pa/assets/60337134/87b7303b-e63f-4d2c-bff8-c23e553a3a2d">
 
 
 
 ## Stack
 - [NextJS ](https://nextjs.org/docs)
 - [Typescript](https://www.framer.com/motion/)
-- [ChakraUI](https://chakra-ui.com/)
+
 
 
 ## Clone this repository
